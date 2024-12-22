@@ -29,7 +29,11 @@ FullStackTaskBoard is a task management application with a backend built using N
 
 3. Create a `.env.local` file in the root directory and add the necessary environment variables. You can use the `.env.local` file as a reference.
 
-4. Start the frontend development server:
+   ```sh
+    NEXT_PUBLIC_API_URL=https://magnet-brains-be.onrender.com/api/v1
+    ```
+
+5. Start the frontend development server:
 
     ```sh
     npm run dev
@@ -41,8 +45,8 @@ FullStackTaskBoard is a task management application with a backend built using N
 
 The application is deployed at the following links:
 
-- Frontend: [https://full-stack-task-board-frontend.vercel.app/](https://full-stack-task-board-frontend.vercel.app/)
-- Backend: [https://taskdashboard2.onrender.com](https://taskdashboard2.onrender.com)
+- Frontend: (https://magnet-brains-fe.vercel.app/)
+- Backend: (https://magnet-brains-be.onrender.com)
 
 ## API Endpoints
 
