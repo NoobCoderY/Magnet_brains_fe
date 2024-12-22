@@ -55,7 +55,13 @@ const Signup = () => {
                
              const response = await axios.post(
                `${process.env.NEXT_PUBLIC_API_URL}/register`,
-               formData
+               formData,
+               {
+                  headers: {
+                   'Content-Type': 'application/json',
+                    'Access-Control-Allow-Origin': '*',
+                  },
+               }
              );
               router.push('/login');
            
