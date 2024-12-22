@@ -29,7 +29,11 @@ FullStackTaskBoard is a task management application with a backend built using N
 
 3. Create a `.env.local` file in the root directory and add the necessary environment variables. You can use the `.env.local` file as a reference.
 
-4. Start the frontend development server:
+   ```sh
+    NEXT_PUBLIC_API_URL=http://localhost:{PORT}/api/v1
+    ```
+
+5. Start the frontend development server:
 
     ```sh
     npm run dev
