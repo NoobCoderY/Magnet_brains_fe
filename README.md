@@ -45,8 +45,8 @@ FullStackTaskBoard is a task management application with a backend built using N
 
 The application is deployed at the following links:
 
-- Frontend: [https://full-stack-task-board-frontend.vercel.app/](magnet-brains-fe.vercel.app)
-- Backend: [https://taskdashboard2.onrender.com](https://magnet-brains-be.onrender.com)
+- Frontend:(magnet-brains-fe.vercel.app)
+- Backend: (https://magnet-brains-be.onrender.com)
 
 ## API Endpoints
 
